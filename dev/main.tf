@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "vcube-s3-tfstate23874 "
+    bucket = "vcube-s3-tfstate23874"
     key = "dev/terraform.tfstate"
     region = "ap-south-1"
     
